@@ -1,0 +1,68 @@
+
+body{
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 800px;
+    height: 530px;
+    padding: 1px;
+    margin: auto auto;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(165, 253, 253);
+    box-shadow: 10px 10px 5px rgb(129, 215, 255);
+    transition-property: background-color, box-shadow;
+    transition-duration: 1.5s;
+}
+
+h1{
+    margin: 0px;
+}
+h2{
+    margin: 10px;
+}
+.text{
+    height: 300px;
+    font-size: 20px;
+    padding: 30px;
+}
+.text h4{
+    text-align: left;
+}
+.imagens {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.imagens div img{
+    display: inline-block;
+    border-radius: 50%;
+}
+.btn-eng, .btn-med, .btn-fei{
+    width: 90px;
+    transition: 500ms;
+}
+.btn-pad{
+    width: 80px;
+    transition: 500ms;
+}
+.btn-sol{
+    width: 80px;
+    transition: 500px;
+}
+.btn-eng:hover, .btn-med:hover, .btn-fei:hover {
+    width: 120px;
+    transition: 500ms;
+}
+.btn-pad:hover{
+    width: 100px;
+    transition: 500ms;
+}
+
+.btn-sol:hover{
+    width: 100px;
+    transition: 500ms;
+}
